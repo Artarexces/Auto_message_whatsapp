@@ -1,5 +1,15 @@
-Date: 7/5/2025
-Time: 21:4
-Phone Number: +5491171038515
-Message: Traniella te saluda desde python
+Date: 8/5/2025
+Time: 20:4
+Phone Number: +5491160155806
+Message: Hola {nombre} este es un msj de prueba para enviar en 30 min, despues de 15min llega el troyano xD
+--------------------
+Date: 8/5/2025
+Time: 20:7
+Phone Number: +5491160155806
+Message: Hola {nombre} este es un msj de prueba para enviar en 30 min, despues de 15min llega el troyano xD
+--------------------
+Date: 8/5/2025
+Time: 20:23
+Phone Number: +5491160155806
+Message: Hola ATZEL ahora si funciona esta poha ?
 --------------------
