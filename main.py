@@ -1,9 +1,9 @@
 import time 
 import pywhatkit as kit 
 
-archivo_contacto = "contactos_ejemplo.txt" 
+archivo_contacto = "contactos_ejemplo.txt" # <-- Aca podes cambiar por el archivo txt que gustes.
 
-mensaje_base = "Hola {nombre}, te voy a romper el orto con la comision."
+mensaje_base = "Hola {nombre}, saludos!."
 
 with open (archivo_contacto, "r", encoding="utf-8") as archivo:
     contactos = [linea.strip().split(",") for linea in archivo if linea.strip()]
