@@ -1,3 +1,5 @@
+
+
 # Auto Message WhatsApp
 
 Este repositorio contiene un script en Python para **automatizar el envío de mensajes por WhatsApp** usando la librería [PyWhatKit](https://github.com/Ankit404butfound/PyWhatKit).
@@ -16,7 +18,7 @@ Este repositorio contiene un script en Python para **automatizar el envío de me
 ---
 
 ## 🛠️ Requisitos
-
+;
 - Python 3.7 o superior  
 - Navegador web (Chrome o Edge recomendado)  
 - Librería PyWhatKit  
@@ -24,7 +26,8 @@ Este repositorio contiene un script en Python para **automatizar el envío de me
 
 Instala las dependencias con:
 
-```bash
+##bash
+
 pip install pywhatkit
 
 ---
@@ -32,22 +35,26 @@ pip install pywhatkit
 ## 📂 Estructura de archivos
 
 Auto_message_whatsapp/
-├── contactos.txt            # Archivo donde defines tus contactos y mensajes
-├── contactos_ejemplo.txt    # Ejemplo de formato para tu lista de contactos
-├── PyWhatKit_DB.txt         # Base de datos local de PyWhatKit (logs de uso)
-├── main.py                  # Script principal para enviar mensajes
-├── main-test.py             # Script de pruebas y demostración
-└── README.md                # Este archivo
+
+
+├── contactos.txt    
+├── contactos_ejemplo.txt   
+├── PyWhatKit_DB.txt            
+├── main.py         
+├── main-test.py   
+└── README.md                
 
 ---
 
 ## 📥 Uso
+
 
 ### 1. Configura tu lista de contactos
 
 Edita `contactos.txt` (o copia el formato de `contactos_ejemplo.txt`) siguiendo la estructura:
 
 +54911XXXXXXX|“¡Hola Joe! ¿Cómo estás?”|14|30
+
 +54911YYYYYYY|“Recordatorio: reunión a las 16:00.”|15|45
 
 
@@ -62,7 +69,8 @@ Cada línea contiene:
 
 ### 2. Ejecuta el script
 
-```bash
+##bash
+
 python main.py
 
 El script leerá cada línea de contactos.txt y programará el envío en WhatsApp Web.
