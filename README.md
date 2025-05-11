@@ -18,7 +18,7 @@ Este repositorio contiene un script en Python para **automatizar el envío de me
 ---
 
 ## 🛠️ Requisitos
-;
+
 - Python 3.7 o superior  
 - Navegador web (Chrome o Edge recomendado)  
 - Librería PyWhatKit  
@@ -26,7 +26,7 @@ Este repositorio contiene un script en Python para **automatizar el envío de me
 
 Instala las dependencias con:
 
-##bash
+## bash
 
 pip install pywhatkit
 
@@ -69,7 +69,7 @@ Cada línea contiene:
 
 ### 2. Ejecuta el script
 
-##bash
+## bash
 
 python main.py
 
@@ -86,7 +86,7 @@ PyWhatKit registrará en PyWhatKit_DB.txt la hora y estado de cada envío.
 
 Para ejecutar el script de prueba sin afectar tus datos reales:
 
-```bash
+## bash
 python main-test.py
 
 Este archivo simula un envío utilizando contactos_ejemplo.txt.
